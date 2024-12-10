@@ -2,7 +2,10 @@
 
 ## Background and Motivation
 
-Traffic signing and encryption has been insofar the primary method to ensure data confidentiality, integrity and authenticity. However, an increasing amount of attacks,  vulnerabilities, and new emerging requirements are deeming the data security provided by such methods insufficient. Vulnerable factors include:
+The Internet architecture assumes a blind trust relationship between the transport layer functionality path between communicating entities. Available path(s) are assumed to be usable, hence trustable, as determined by the network control plane. Communicating entities have very little information about the paths over which their traffic is carried, and have no available means to audit paths, beyond basic properties like latency, and throughput, congestion.
+
+Increased demand in network security, privacy, robustness, and confidentiality makes tools for path accountability and properties trustworthiness a necessity.
+Path-agnostic traffic signing and encryption has been insofar the primary method to ensure data confidentiality, integrity and authenticity. However, an increasing amount of attacks, vulnerabilities, and new emerging requirements are deeming the data security provided by such methods insufficient. Vulnerable factors include:
 
 * Exploitation of poor cryptographic engineering
 * Side-channel attacks
