@@ -38,12 +38,13 @@ Due to their similarities between RATS and NASR, mainly related to the notion of
 - **Path-level Trust Attributes**: collectively defined by all devices or services in the path through attribute aggregation or mapping.
 - **Continuous Assurance**: Mechanisms and protocol extensions for verifiable operational correctness evidence, including Proof-of-Transit (PoT), signed device integrity snapshot and/or access log, etc. 
 
-## Dependencies and Liaisons 
 
-The NASR working group will closely collaborate with: 
+## Relation with other WGs
 
-- Other IETF Working Groups that address topics related to attestation and routing security, including but not limited to, RATS, SAVNET, SIDROPS, IDR.
-- Other IRTF Research Groups that provide research inputs and reviews, such as PANRG, CFRG. 
-- The European Telecommunications Standards Institute (ETSI), particularly with regard to the Topology Attestation.
-- The International Telecommunication Union (ITU), particularly with regard to the Y.TRUST-TLA project (Framework of Trust-Level Assessment for Trustworthy Networking) and ITU-T-SG-13. 
+The NASR working group will coordinate and collaborate with other WGs as needed. 
+Specific expected interactions include (but may not be limited to):
+
+- RATS on the remote attestation technology.
+- PANRG on path-aware networking aspects.
+- Other IETF WGs and IRTF RGs that address topics related to attestation, routing security, like for instance SAVNET, SIDROPS.
 
