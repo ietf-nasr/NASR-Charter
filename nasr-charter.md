@@ -29,14 +29,6 @@ Due to their similarities between RATS and NASR, mainly related to the notion of
 - Automated operational security incident remediation, routing fault correction.
 - Methods of how to assess device integrity. 
 
-## Work Items
-
-- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirement and the problem to be solved. 
-    - Candidate document: [draft-liu-nasr-requirements-01](https://datatracker.ietf.org/doc/draft-liu-nasr-requirements/)
-- **NASR Architecture**: An architecture document that defines the interactive procedures of network path attestation, along with definitions of common terminology, roles, trust models etc. 
-- **NASR Service Model**: A document that defines a standard service interface between operators and operator clients, translate client requests to objective security features or trust attributes, making sure the same service request will receive same levels of trusted services from different operators. 
-- **Path-level Trust Attributes**: collectively defined by all devices or services in the path through attribute aggregation or mapping.
-- **Continuous Assurance**: Mechanisms and protocol extensions for verifiable operational correctness evidence, including Proof-of-Transit (PoT), signed device integrity snapshot and/or access log, etc. 
 
 ## Dependencies and Liaisons 
 
@@ -47,3 +39,11 @@ The NASR working group will closely collaborate with:
 - The European Telecommunications Standards Institute (ETSI), particularly with regard to the Topology Attestation.
 - The International Telecommunication Union (ITU), particularly with regard to the Y.TRUST-TLA project (Framework of Trust-Level Assessment for Trustworthy Networking) and ITU-T-SG-13. 
 
+## Milestones (Tenative)
+
+- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirement and the problem to be solved. 
+    - Candidate document: [draft-liu-nasr-requirements-01](https://datatracker.ietf.org/doc/draft-liu-nasr-requirements/)
+- **NASR Architecture**: An architecture document that defines the interactive procedures of network path attestation, along with definitions of common terminology, roles, trust models etc. 
+- **NASR Service Model**: A document that defines a standard service interface between operators and operator clients, translate client requests to objective security features or trust attributes, making sure the same service request will receive same levels of trusted services from different operators. 
+- **Path-level Trust Attributes**: collectively defined by all devices or services in the path through attribute aggregation or mapping.
+- **Continuous Assurance**: Mechanisms and protocol extensions for verifiable operational correctness evidence, including Proof-of-Transit (PoT), signed device integrity snapshot and/or access log, etc. 
