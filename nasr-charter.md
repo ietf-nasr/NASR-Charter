@@ -39,12 +39,13 @@ Due to their similarities between RATS and NASR, mainly related to NASR's depend
 - **Path Attestation Claims Set**: Attested claims set that describes state and characteristics of a network path comprised of network elements. It should be collectively defined by all network elements in the path, and encoded in certain encapsulation formats. This claims set is used by a relying party, to determine if the operator delivers the requested security requirements.
 - **Proof of Transit**: Mechanisms and protocol extensions for Proof-of-Transit (PoT), proving and visualizing the actual forwarding paths in the data plane.
 
-## Dependencies and Liaisons 
 
-The NASR working group will closely collaborate with: 
+## Relation with other WGs
 
-- Other IETF Working Groups that address topics related to attestation and routing security, including but not limited to, RATS, SAVNET, SIDROPS, IDR.
-- Other IRTF Research Groups that provide research inputs and reviews, such as PANRG, CFRG. 
-- The European Telecommunications Standards Institute (ETSI), particularly with regard to the Topology Attestation.
-- The International Telecommunication Union (ITU), particularly with regard to the Y.TRUST-TLA project (Framework of Trust-Level Assessment for Trustworthy Networking) and ITU-T-SG-13. 
+The NASR working group will coordinate and collaborate with other WGs as needed. 
+Specific expected interactions include (but may not be limited to):
+
+- RATS on the remote attestation technology.
+- PANRG on path-aware networking aspects.
+- Other IETF WGs and IRTF RGs that address topics related to attestation, routing security, like for instance SAVNET, SIDROPS.
 
