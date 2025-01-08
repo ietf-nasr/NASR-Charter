@@ -15,7 +15,8 @@ Path-agnostic traffic signing and encryption has been insofar the primary method
 
 Customers with high security, privacy, and resiliency requirements are not any more satisfied with simple end-to-end encryption-based security measures, which does not allow assessing security and trustworthiness aspects of the underlying network elements. Emerging customers' demands include proofs that data traverse through network elements (devices, links and services) satisfying specific requirements, avoiding any exposure to unqualifying elements. Customers would like to propose path requirements, such as paths composed of devices with the latest security updates, have passed integrity checks, or routes confined within specific geographical areas. Accordingly, operators should provide verifiable proofs to the customers for operational visualization, internal inspection and external auditing. 
 
-RATS (Remote Attestation Procedures) working group has provided a framework and approaches to assess and establish the trustworthiness of a single device, hence offering an initial building block. However, a comprehensive framework that attests to a network -- meaning network-level elements' trustworthiness proofs and verification methods remains elusive.
+The RATS (Remote ATtestation procedureS) working group has provided a framework and approaches to assess and establish the trustworthiness of a single device, hence offering an initial building block. 
+However, a comprehensive framework that attests to a network -- meaning network-level elements' trustworthiness proofs and verification methods remains elusive.
 
 ## Goals and Scope
 
