@@ -30,7 +30,7 @@ Due to their similarities between RATS and NASR, mainly related to NASR's depend
 
 - Path computation according to client's security requirements (Do-elsewhere)
 - Automated operational security incident remediation, routing fault correction.
-- Methods of how to assess device integrity. 
+- Methods of how to assess device integrity and trust-level. 
 
 ## Work Items
 
