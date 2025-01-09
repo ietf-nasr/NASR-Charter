@@ -18,13 +18,14 @@ Customers with high security, privacy, and resiliency requirements are not satis
 The RATS (Remote ATtestation procedureS) working group has provided a framework and approaches to assess and establish the trustworthiness of a single device, hence offering an initial building block. 
 However, a comprehensive framework that attests to a network -- meaning network-level elements' trustworthiness proofs and verification methods remains elusive.
 
-## Goals and Scope
+## Goals
 
-The Network Attestation for Secure Routing working group is chartered to address the challenges associated with proving security state and characteristics of a network path, so as to achieve reliable/predictable and verifiable forwarding behavior. The work will build on existing standards and implementations, focusing on combining them in a clear and coherent manner to address secure forwarding use cases such as those identified and described in the NASR Use Cases and Requirements document.
+The Network Attestation for Secured FoRwarding working group is chartered to address the challenges associated with proving state and characteristics of a network path are compliant to a set of claims, so as to achieve reliable/predictable and verifiable forwarding behavior. 
+The work will build as much as possible on existing standards and implementations, focusing on combining them in a clear and coherent manner to address secured forwarding use cases such as those identified and described in the NASR use cases and requirements document.
 
-The working group will initially focus on a simple source-routing path in limited domains [RFC8799] under a single administrative control. Inter-domain scenario is partially covered to permit interaction between two limited domains, but not the public Internet. Extending NASR across multiple domains and complex topologies will be considered in the future. 
-
-Due to their similarities between RATS and NASR, mainly related to NASR's dependency on RATS outputs, NASR will work closely with RATS working group for collaboration and consultation.  NASR will also take consideration of useful works from concluded working groups, such as I2NSF, SFC. 
+The working group will initially focus on a simple source-routing path in limited domains [RFC8799] under a single administrative control. 
+Extending NASR across a small group of domains that have business relationship will be considered in the future. 
+Applying NASR to large groups of domains such as the Internet is not seen as viable and useful use case.
 
 ## Out of Scope
 
