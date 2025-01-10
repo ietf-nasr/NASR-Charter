@@ -52,4 +52,5 @@ Specific expected interactions include (but may not be limited to):
 - Path computation according to a set of claims.
 - Automated operational security incident remediation, routing fault correction.
 - Methods of how to assess device integrity and/or trust-level.
-- Public Internet deployment. 
+- Public Internet deployment.
+- Proof of non-transit.
