@@ -28,7 +28,7 @@ Due to their similarities between RATS and NASR, mainly related to NASR's depend
 
 ## Work Items
 
-- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirement and the problem to be solved. 
+- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirements and the problem to be solved, including a threat analysis. 
     - Candidate document: [draft-liu-nasr-requirements-03](https://datatracker.ietf.org/doc/draft-liu-nasr-requirements/)
 - **NASR Architecture**: An architecture document that defines the interactive procedures of network path attestation, along with definitions of common terminology, roles, trust models etc.
     - Candidate document: [draft-liu-nasr-architecture-01](https://datatracker.ietf.org/doc/draft-liu-nasr-architecture/)
