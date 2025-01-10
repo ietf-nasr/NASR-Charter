@@ -26,12 +26,6 @@ The working group will initially focus on a simple source-routing path in limite
 
 Due to their similarities between RATS and NASR, mainly related to NASR's dependency on RATS outputs, NASR will work closely with RATS working group for collaboration and consultation.  NASR will also take consideration of useful works from concluded working groups, such as I2NSF, SFC. 
 
-## Out of Scope
-
-- Path computation according to client's security requirements (Do-elsewhere)
-- Automated operational security incident remediation, routing fault correction.
-- Methods of how to assess device integrity and trust-level. 
-
 ## Work Items
 
 - **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirement and the problem to be solved. 
@@ -52,3 +46,10 @@ Specific expected interactions include (but may not be limited to):
 - PANRG on path-aware networking aspects.
 - Other IETF WGs and IRTF RGs that address topics related to attestation, routing security, like for instance SAVNET, SIDROPS.
 
+
+## Out of Scope
+
+- Path computation according to a set of claims.
+- Automated operational security incident remediation, routing fault correction.
+- Methods of how to assess device integrity and/or trust-level.
+- Public Internet deployment. 
