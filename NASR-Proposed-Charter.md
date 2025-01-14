@@ -23,8 +23,8 @@ However, a comprehensive framework that attests to a network -- meaning network-
 The Network Attestation for Secured FoRwarding working group is chartered to address the challenges associated with proving state and characteristics of a network path are compliant to a set of claims, so as to achieve reliable/predictable and verifiable forwarding behavior. 
 The work will build as much as possible on existing standards and implementations, focusing on combining them in a clear and coherent manner to address secured forwarding use cases such as those identified and described in the NASR use cases and requirements document.
 
-The working group will initially focus on a simple source-routing path in limited domains [RFC8799] under a single administrative control. 
-Extending NASR across a small group of domains that have business relationship will be considered in the future. 
+The working group will initially focus on a simple source-routing path in limited domains [RFC8799] under a single administrative control.
+The working group will then focus on a simple source-routing path spanning a few number of limited domains that have business relationship, in order to help coordinate, connect and deliver a consistent connectivity service.
 Applying NASR to large groups of domains such as the Internet is not seen as viable and useful use case.
 
 ## Out of Scope
