@@ -2,9 +2,14 @@
 
 ## Background and Motivation
 
-In the Internet architecture, communicating entities blindly trust and use paths as determined by the control plane. These available path(s) are assumed to be usable, trustable, performant, and realizing the expected requirements. Communicating entities have very little information about the paths over which their traffic is carried, and have no available means to audit paths, beyond basic properties like latency, throughput, and congestion. However, increased demand in network security, privacy, robustness, and confidentiality makes tools for path properties accountability a necessity.
+In the current network deployments, communicating entities implicitly rely on peer entities and use paths as determined by the control plane.
+These available path(s) are implicitly trusted.
+Communicating entities have very little information about the entities in the paths over which their traffic is carried, and have no available means to audit the entities and paths, beyond basic properties like latency, throughput, and congestion.
+However, increased demand in network security, privacy, and robustness makes tools for enabling visibility of the entities' security posture a necessity.
 
-Path-agnostic traffic signing and encryption has been insofar the primary method to ensure data confidentiality, integrity and authenticity. However, an increasing amount of attacks, vulnerabilities, and new emerging requirements are deeming the data security provided by such methods insufficient. Vulnerable factors include:
+Path-agnostic traffic signing and encryption has been the primary method to ensure data confidentiality, integrity and authenticity today.
+However, with the increasing amount of attacks, and vulnerabilities, new emerging threats are imposing requirements that go beyond the data security currently provided.
+Vulnerable factors include:
 
 * Exploitation of poor cryptographic engineering
 * Side-channel attacks
@@ -13,10 +18,11 @@ Path-agnostic traffic signing and encryption has been insofar the primary method
 * Unauthorized device root access, caused by physical tampering or penetration
 * Erroneous routing to unintended devices or areas, etc.
 
-Customers with high security, privacy, and resiliency requirements are not satisfied any more with simple end-to-end encryption-based security measures.  End-to-end encryption does not allow assessing security and trustworthiness aspects of the underlying network elements. Emerging customers' demands include proofs that data traverse through network elements (devices, links and services) satisfying specific requirements, avoiding any exposure to unqualified elements. Customers would like to propose path requirements, such as paths composed of devices with the latest security updates, have passed integrity checks, or routes confined within specific geographical areas. Accordingly, operators should provide verifiable proofs to the customers for operational visualization, internal inspection and external auditing. 
+With these additional security and privacy requirements, there is a need to provide enhanced or added services beyond the pure encryption-based data security; requiring better visibility of the security posture of the underlying network elements.
+Specifically, to satisfy the visibility of the network elements' security state, proof that data is traversed through network elements (devices, links and services) that satisfy security posture claims to avoid exposure of unqualified elements is needed.
 
-The RATS (Remote ATtestation procedureS) working group has provided a framework and approaches to assess and establish the trustworthiness of a single device, hence offering an initial building block. 
-However, a comprehensive framework that attests to a network -- meaning network-level elements' trustworthiness proofs and verification methods remains elusive.
+The RATS (Remote ATtestation procedureS) working group has provided a framework and approaches to assess and establish the trustworthiness of a single device, hence offering an initial building block.
+However, a comprehensive framework that attests to a network -- meaning network-level elements' trustworthiness proofs and verification methods are lacking.
 
 ## Goals
 
@@ -24,7 +30,7 @@ The Network Attestation for Secured FoRwarding working group is chartered to add
 The work will build as much as possible on existing standards and implementations, focusing on combining them in a clear and coherent manner to address secured forwarding use cases such as those identified and described in the NASR use cases and requirements document.
 
 The working group will initially focus on a simple source-routing path in limited domains [RFC8799] under a single administrative control.
-The working group will then focus on a simple source-routing path spanning a few number of limited domains that have business relationship, in order to help coordinate, connect and deliver a consistent connectivity service.
+The working group will then focus on a simple source-routing path spanning a few numbers of limited domains that have business relationship, in order to help coordinate, connect and deliver a consistent connectivity service.
 Applying NASR to large groups of domains such as the Internet is not seen as viable and useful use case.
 
 ## Work Items
