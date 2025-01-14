@@ -1,4 +1,4 @@
-# Proposed Charter for Network Attestation for Secure Routing (NASR)
+# Proposed Charter for Network Attestation for Secured foRwarding (NASR)
 
 ## Background and Motivation
 
