@@ -29,18 +29,18 @@ However, a comprehensive framework that attests to a network -- meaning network-
 The Network Attestation for Secured FoRwarding working group is chartered to address the challenges associated with proving state and characteristics of a network path are compliant to a set of claims, so as to achieve predictable and verifiable forwarding behavior. 
 The work will build as much as possible on existing standards and implementations, focusing on combining them in a clear and coherent manner to address secured forwarding use cases such as those identified and described in the NASR use cases and requirements document.
 
-The working group will initially focus on a simple service path in limited domains [RFC8799] under a single administrative control.
-The working group will then focus on a simple service path spanning a few numbers of limited domains that have business relationship, in order to help coordinate, connect and deliver a consistent connectivity service.
+The working group will initially focus on a simple service path in limited domains under a single administrative control.
+The working group will then focus on a simple service path spanning a few number of domains that have business relationship, in order to help coordinate, connect and deliver a consistent connectivity service.
 Applying NASR to large groups of domains such as the Internet is not seen as viable and useful use case.
 
 ## Work Items
 
-- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will described use cases, formalize their requirements and the problem to be solved, including a threat analysis. 
+- **NASR Use Cases, Problem Statement and Requirements**: As for the title the document will describe use cases already identified by the participants, formalize their requirements and the problem to be solved. The document will include a threat analysis to clarify what NASR is able to achieve and what is not able to achieve. 
     - Candidate document: [draft-liu-nasr-requirements-03](https://datatracker.ietf.org/doc/draft-liu-nasr-requirements/)
-- **NASR Architecture**: An architecture document that defines the interactive procedures of network path attestation, along with definitions of common terminology, roles, trust models etc.
+- **NASR Architecture**: An architecture document that defines the interactive procedures of network path attestation, along with definitions of common terminology, roles, trust models etc.. The terminology will build on and extend terminology already in defined in the context of attestation technology. 
     - Candidate document: [draft-liu-nasr-architecture-01](https://datatracker.ietf.org/doc/draft-liu-nasr-architecture/)
-- **NASR Service Model**: A document that defines a standard service interface between operators and operator clients, translate client requests to objective security features or trust attributes, making sure the same service request will receive same security levels services from different operators. 
-- **Path Attestation Claims Set**: Attested claims set that describes state and characteristics of a network path comprised of network elements. It should be collectively defined by all network elements in the path, and encoded in certain encapsulation formats. This claims set is used by a relying party, to determine if the operator delivers the requested security requirements.
+- **NASR Service Model**: A document that defines a standard service interface between operators and operator customers, translate customers requests to objective security features or trust attributes, making sure the same service request will receive same compliance level from different operators. 
+- **Path Attestation Claims Set**: Attested claims set that describes state and characteristics of a network path comprised of network elements. It should be collectively defined by all network elements in the path, and encoded in certain encapsulation formats. This claims set is used by a relying party, to determine if the operator delivers the requested compliance requirements.
 - **Proof of Transit**: Mechanisms and protocol extensions for Proof-of-Transit (PoT), proving and visualizing the actual forwarding paths in the data plane.
 
 
@@ -50,7 +50,7 @@ The NASR working group will coordinate and collaborate with other WGs as needed.
 Specific expected interactions include (but may not be limited to):
 
 - RATS on the remote attestation technology.
-- PANRG on path-aware networking aspects.
+- PANRG and SPRING on path-aware networking aspects.
 - Other IETF WGs and IRTF RGs that address topics related to attestation, routing security, like for instance SAVNET, SIDROPS.
 
 
